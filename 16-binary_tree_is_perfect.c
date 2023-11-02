@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
  * depth - the depth of tree
- * @tree: s a pointer to
- * the root node of the tree to check
+ * @tree: is a pointer
+ * Return: the depth
  */
 int depth(const binary_tree_t *tree)
 {
@@ -15,8 +15,8 @@ int depth(const binary_tree_t *tree)
 /**
  * binary_tree_is_perfect - function that checks
  * if a binary tree is perfect
- * @tree: s a pointer to
- * the root node of the tree to check
+ * @tree: is a pointer
+ * Return: 0 or 1 if is perfect
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
